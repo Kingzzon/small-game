@@ -1,0 +1,44 @@
+#topRect {
+    background-color: black;
+} 
+
+#rightRect {
+    background-color: blue;
+}
+
+#bottomRect {
+    background-color: red;
+}
+
+#leftRect {
+    background-color: green;
+    
+}
+
+#mainCircle {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    left: 0;
+    right: 0;
+    background-color: red;
+}
+
+#svg {
+    display: block;
+    margin: auto;
+}
+
+#startGame {
+    width: 100px;
+    height: 50px;
+}
+
+#mainDiv {
+  text-align: center;
+}
+
+#scoreCount{
+    text-align: center;
+    
+}
