@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+        
+    <script src="jquery-3.2.1.min.js"></script>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+    <script src="main.js"></script>
+        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        
+  </head>
+    
+  <body>
+  <div>
+      <button id="startGame" onclick="startGameMain()"  onkeydown="moveCircle(event)">Start Game</button>
+      <p3 id="scoreCount"></p3>
+      <div id="countDown"></div>
+  </div>
+      <svg id="svg" width="1000" height="1000">
+        <circle r=20 cy="440" cx="450" fill="red" id="mainCircle"/>
+        <rect width="130" height="10" x="385" y="370" fill="yellow" id="topRect" style="text-align:center;"/>
+        <rect width="130" height="10" x="385" y="495" fill="green" id="bottomRect" style="text-align:center;"/>
+        <rect width="10" height="135" x="505" y="370" fill="blue" id="rightRect" style="text-align:center;"/>
+        <rect width="10" height="135" x="385" y="370" fill="red" id="leftRect" style="text-align:center;"/> 
+      </svg>
+
+  </body>
+</html>
